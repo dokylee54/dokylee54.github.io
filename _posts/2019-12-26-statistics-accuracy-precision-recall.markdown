@@ -1,16 +1,16 @@
 ---  
 layout: post  
-title: "hello world"  
-subtitle: "Generative Deep Learning"  
-categories: review  
-tags: review book gan vae deep learning reinforcement learning   
+title: "[Statistics] 모델 성능 측정을 위해 precision, recall 표로 쉽게 계산하기"  
+subtitle: "statistics"  
+categories: statistics  
+tags: statistics deep learning model performance accuracy precision recall f1-score
 comments: true  
 header-img: img/review/2019-12-12-review-book-GAN-1.jpg  
-published: false
+published: true
 ---  
   
 ## 개요  
-> 본 리뷰는 `한빛미디어` 출판사 `"미술관에 GAN 딥러닝 실전 프로젝트(데이비드 포스터 저)"`를 읽고 얻은 지식을 정리한 글입니다.  
+> 본 문서는 youtube 영상 ["[머신러닝] 다중 분류 모델 성능 측정 (accuracy, f1 score, precision, recall on multiclass classification)"](https://youtu.be/8DbC39cvvis)를 보고 정리한 글입니다.
   
 - 목차  
 - [생성 모델링이란?](#생성-모델링이란)  

@@ -1,8 +1,8 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
-theorydb:
-  name:              min
+dokylee54:
+  name:              dokylee
   email:             dokylee54@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
@@ -26,13 +26,13 @@ theorydb:
     # twitter:         <username>
     # google:          <number>
     # vk:              <username>
-    # youtube:         <string_string_string>
+    youtube:         https://www.youtube.com/channel/UCAxdWlT5uFu8_mxdFkhJ0rw
     # vimeo:           <username>
     # vine:            <username>
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    # instagram:       <username>
+    instagram:       doguni96
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
@@ -58,7 +58,7 @@ theorydb:
     # stumbleupon:     <username>
     # paypal:          <username>
     email:           mailto:dokylee54@gmail.com
-    rss:             https://dokylee54.github.io/feed.xml
+    # rss:             https://dokylee54.github.io/feed.xml
 
 # Another author
 mdo:
