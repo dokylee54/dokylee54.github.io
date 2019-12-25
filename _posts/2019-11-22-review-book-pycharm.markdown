@@ -1,6 +1,9 @@
+---
+published: false
+---
 ---  
 layout: post  
-title: "[리뷰] 파이썬에 참 좋은 PyCharm"  
+title: "[리뷰] 파이썬에 참 좋은"  
 subtitle: "Pycharm good for python"  
 categories: review  
 tags: review book python pycharm   
