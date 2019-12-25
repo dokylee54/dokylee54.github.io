@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: DL
-slug: dl
-category: dev
+title: RDBMS
+slug: rdbms
+category: web
 menu: false
 order: 2
 ---

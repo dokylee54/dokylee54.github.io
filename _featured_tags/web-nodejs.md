@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Statistics & R
-slug: r
-category: dev
+title: Nodejs
+slug: nodejs
+category: web
 menu: false
 order: 1
 ---
