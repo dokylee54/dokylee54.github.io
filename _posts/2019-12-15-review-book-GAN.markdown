@@ -1,6 +1,9 @@
+---
+published: false
+---
 ---  
 layout: post  
-title: "[리뷰] 미술관에 GAN 딥러닝 실전 프로젝트"  
+title: "안녕하세요구르트!"  
 subtitle: "Generative Deep Learning"  
 categories: review  
 tags: review book gan vae deep learning reinforcement learning   
