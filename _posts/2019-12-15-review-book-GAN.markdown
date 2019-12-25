@@ -3,7 +3,7 @@ published: false
 ---
 ---  
 layout: post  
-title: "안녕하세요구르트"  
+title: "안녕하세요구르트!"  
 subtitle: "Generative Deep Learning"  
 categories: review  
 tags: review book gan vae deep learning reinforcement learning   
