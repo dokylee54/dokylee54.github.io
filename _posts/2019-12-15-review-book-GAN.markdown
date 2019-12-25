@@ -1,6 +1,3 @@
----
-published: false
----
 ---  
 layout: post  
 title: "안녕하세요구르트!"  
@@ -9,6 +6,7 @@ categories: review
 tags: review book gan vae deep learning reinforcement learning   
 comments: true  
 header-img: img/review/2019-12-12-review-book-GAN-1.jpg  
+published: false
 ---  
   
 ## 개요  

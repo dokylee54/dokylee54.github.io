@@ -6,6 +6,7 @@ categories: review
 tags: review book dynamic programming   
 comments: true  
 header-img: img/review/2019-11-11-review-book-dynamic-programming-1.jpg  
+published: false
 ---  
   
 ## 개요  
@@ -28,6 +29,8 @@ header-img: img/review/2019-11-11-review-book-dynamic-programming-1.jpg
 
   리처드 벨만은 그의 자서전, "태풍의 눈"에서 Dynamic Programming의 어원을 다음과 같이 설명한다.  
   > '의사 결정 프로세스'라는 이름을 사용했지만, 여기에서 '프로세스(Process)'라는 단어를 사용하는데 여러가지 차질이 생겨버리고 만 것이다. 그래서 나는 사람들이 알지 못하게 '계획법(Programming)'이라는 단어를 붙였다. 또한 나는 이 프로세스가 다단계로 이루어져 있으며, 시가변적(time-varing)이며, '동적(Dynamic)'이다라는 개념(idea)이 전달되길 원했다. 이 단어야말로 내가 연구하는 알고리즘의 성질을 정확하게 짚어내었고, 게다가 윌슨에게도 피해를 입히지 않으며 공군도 이 단어에선 꼬투리를 잡지 못했으니 그야말로 일석이조의 효과를 누린 것이다.
+
+  >느엥??
 
   벨만이 처한 상황에는 당시 모종의 정치적인(?) 이유가(상급자, 연구비 등) 개입되며 직관성이 흐려진 듯 하다. 그래서 필자는 대다수의 해석에 따라 다음과 같은 뉘앙스로 이해한다.
   

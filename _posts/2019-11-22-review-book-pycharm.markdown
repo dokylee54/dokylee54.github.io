@@ -1,11 +1,12 @@
 ---  
 layout: post  
-title: "[리뷰] 파이썬에 참 좋은 PyCharm"  
+title: "[리뷰] 파이썬에 참 좋은"  
 subtitle: "Pycharm good for python"  
 categories: review  
 tags: review book python pycharm   
 comments: true  
 header-img: img/review/2019-11-22-review-book-pycharm-1.jpg  
+published: false
 ---  
   
 ## 개요  
