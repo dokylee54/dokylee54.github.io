@@ -2,28 +2,28 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               TheoryDB
+title:               dokylee54
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://theorydb.github.io
+url:                 https://dokylee54.github.io
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
 baseurl:             ""
 
 # A very short description of your page
-tagline:             "All roads lead to data."
+tagline:             "Today I Learn"
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  Data Scientist의 길..
+  dokylee54's Blog
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              min
-  email:             theorydb@gmail.com
+  name:              dokylee
+  email:             dokylee54@gmail.com
 
 # Fallback image and color
 image:               /assets/img/main_left.jpg
@@ -48,7 +48,7 @@ google_analytics:    UA-137374202-1
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
 disqus: True
-disqus_shortname:    theorydb
+disqus_shortname:    dokylee54
 
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           '&copy; 2019.04. by theorydb'
