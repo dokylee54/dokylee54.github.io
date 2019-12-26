@@ -44,6 +44,7 @@ published: true
 일단 `TP, TN, FP, FN`는 모두 두 개의 문자를 가졌으니 `자리를 분리`해서 이해해보자!
 
 ![tp-tn-fp-fn-format](https://dokylee54.github.io/assets/img/statistics/2019-12-26/tp-tn-fp-fn-format.jpg)
+![test](https://dokylee54.github.io/assets/img/statistics/2019-12-26/tp-tn-fp-fn-format.jpg)
 
 약간의 말장난 같기도 한데..
 
@@ -60,7 +61,7 @@ published: true
 
 #### 1. TP (True Positive)
 ![tp](https://dokylee54.github.io/assets/img/statistics/2019-12-26/tp.png)
-
+TP : A라고 예측해야 할 것을
 
 
 
