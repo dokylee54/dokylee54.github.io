@@ -1,48 +1,57 @@
 ---  
 layout: post  
-title: "[Statistics] 모델 성능 측정을 위해 precision, recall 표로 쉽게 계산하기"  
+title: "[Statistics] 머신러닝 분류기 성능 측정을 위한 지표 accuracy, precision, recall, f1-score 표로 쉽게 계산하기"  
 subtitle: "statistics"  
 categories: statistics  
-tags: statistics deep learning model performance accuracy precision recall f1-score
+tags: statistics deep learning classifier model performance accuracy precision recall f1-score
 comments: true  
 header-img: img/statistics/ml_main_img.jpg
 published: true
 ---  
   
 ## 개요  
-> 본 문서는 youtube 영상 ["[머신러닝] 다중 분류 모델 성능 측정 (accuracy, f1 score, precision, recall on multiclass classification)"](https://youtu.be/8DbC39cvvis)를 보고 정리한 글입니다.
+> 본 문서는 youtube 영상 ["[머신러닝] 다중 분류 모델 성능 측정 (accuracy, f1 score, precision, recall on multiclass classification)"](https://youtu.be/8DbC39cvvis)을 보고 정리한 글입니다.
   
 - 목차  
-- [생성 모델링이란?](#생성-모델링이란)  
-- [이해를 돕는 사례들](#이해를-돕는-사례들)  
-- [딥러닝 숲에서 VAE를 거쳐 GAN까지](#딥러닝-숲에서-vae를-거쳐-gan까지)  
-- [이 책의 백미 : 그리기, 글쓰기, 작곡하기, 게임하기](#이-책의-백미--그리기-글쓰기-작곡하기-게임하기)
+   - [분류기 성능 측정 방법의 종류 : 4가지](#분류기-성능-측정-방법의-종류-:-4가지)
+   - [TP, TN, FP, FN ?](#TP,-TN,-FP,-FN-?)
   
   
-## 생성 모델링이란? 
+## 분류기 성능 측정 방법의 종류 : 4가지
 ---  
-판별 모델링에만 익숙했던 대부분의 머신러닝 엔지니어에게 생성 모델링은 처음 접하는 순간부터 직관적으로 와 닿지는 않는생소한 개념이다. 확률과 통계는 이제 다 배웠다고 안심하고 책을 덮는 순간부터 다른 악마로 나타나 처음부터 다시 공부해야 한다더니만... 생성 모델링이 어렵게 느껴지는 이유 중 하나도 확률적 랜덤요소를 활용하기 때문이다.
+분류기(classifier)의 성능에 대한 `4가지` 측정 방법이 있다.
 
-`조건부확률 - 베이즈정리 - 나이브베이즈`라는 그 흔한 테크트리가 다시 등장한다.  본 도서에서는 아래와 같이 판별모델링과의 비교를 통해 생성 모델링에 대한 이해도를 높혀준다.
+1. accuracy
+2. precision
+3. recall
+4. f1-score
 
-* 판별 모델링 : 
-   + `p(y|x)` 
-   + 샘플 x가 레이블(카테고리) y일 확률을 추정. 
-   + 예 : 추천시스템, 이메일의 긍정/부정 추정, 사진을 통한 녹내장 발생확률 추정 등
-* 생성 모델링 :  
-   + `p(x|y)`
-   + 레이블(카테고리) y를 통해 샘플x일 확률을 추정. 즉, 원본 데이터셋에 속할 가능성이 높은 픽셀을 출력하는 모델링. 
-   + 확률적 랜덤요소를 고려하여 샘플링한 데이터셋을 생성하는 방법. 
-   + 예 : GAN
-![생성모델링](https://theorydb.github.io/assets/img/review/2019-12-12-review-book-GAN-2.jpg)
+이들을 계산하려면, 한 가지 개념이 더 필요하다. 바로 `TP, TN, FP, FN`!
 
-생성 모델링이 의미가 있는 이유는 판별 모델링이 해낼 수 없는 AI 특성을 가지고 있기 때문이다. 강화학습의 시행착오, 사람의 인지능력을 모방하는데 핵심적인 도구로 활용된다. 
+## TP, TN, FP, FN ?
+---
+개념은 간단하다. 
 
-그렇다면 도대체 어떻게 생성한다는 것인가? 본 도서에서는 아래 그림과 같이 `간단한 생성 모델링 프레임워크` 예제를 통해 P model에서 포인트 A, B, C를 생성하는 방법과 성공여부를 측정하는 방식을 알려준다. 더불어 핵심 개념을 파악하기 용이하게 끔 표본공간, 확률밀도함수, 모수모델, 가능도, 최대가능도추정 등 핵심 확률 개념을 다시금 짚어준다. 
-![생성모델링프레임워크](https://theorydb.github.io/assets/img/review/2019-12-12-review-book-GAN-5.jpg)
+1. TP (True Positive)
+2. TN (True Negative)
+3. FP (False Positive)
+4. FN (False Negative)
+
+처음 봤을 땐 매우 매우 헷갈리는데, 난 하나의 포맷을 만들어서 이해했다.
+
+일단 TP, TN, FP, FN는 모두 두 개의 문자를 가졌으니 `자리를 분리`해서 이해해보자!
+
+![tp-tn-fp-fn-format](https://dokylee54.github.io/assets/img/statistics/tp-tn-fp-fn-format.jpg)
+
+약간의 말장난 같기도 한데..
+
+머신러닝 모델이 예측을 맞춘 경우에 1을 1이라고 해서 맞췄는지, 1이 아닌 걸 1이 아니다 라고 해서 맞췄는지는 분명 다르기 때문에 개념을 분리해서 사용하나보다..!
+
+## 
+---
 
   
-## 이해를 돕는 사례들
+<!-- ## 이해를 돕는 사례들
 ---  
 이 책이 가지는 흥미로운 부분은 각 장별로 이해를 돕기위해 일상생활과 유사한 사례를 예로 든다는 점이다. 예를 들면 위에서 설명한 생성 모델링을 이해시키기 위해 아래 그림과 같은 로들행성과 픽셀행성에서의 새로운 패션 스타일을 창조하기 위한 방법을 마치 소설과 같이 설명해준다. 
 
@@ -91,4 +100,4 @@ VAE까지 학습하고나면 생성모델링에 대해 제법 가시적인 개�
 * __게임하기__
    + `오픈AI Gym` 라이브러리를 활용하여 자동차 경주를 학습한다.
    + 아래 그림과 같은 `월드모델`을 활용하는데 VAE 생성모델에 강화학습을 접목한 방식이다. 개인적으로는 이 실습이 가장 흥미로웠고 GAN과 Reinforcement Learning을 동시에 학습할 수 있어서 가장 배운것이 많은 챕터였다. 생성모델을 의사환경으로 사용하여 전략 정책을 반복하는 기법인데 예전에 알파고와 유사한 것을 만들다가 어려운 난이도에 봉착했던 정책망에 대한 해결책을 얻을 수 있어서 뿌듯했다.
-![월드모델](https://theorydb.github.io/assets/img/review/2019-12-12-review-book-GAN-10.jpg)
+![월드모델](https://theorydb.github.io/assets/img/review/2019-12-12-review-book-GAN-10.jpg) -->
