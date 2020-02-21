@@ -29,7 +29,7 @@ published: true
 `Bandwidth`는 주파수의 최대와 최소의 차이값으로, 주파수 대역이 얼마나 넓은지
 <br><br>
 ![bwvsthp](https://dokylee54.github.io/assets/img/network/2020-02-21/bwvsthp.jpg)
-<br><br>
+<br>
 > 두 가지 상황을 비교 중이다.<br>
 1. 왼쪽<br>
 : `Throughput`은 자동차 1대<br>

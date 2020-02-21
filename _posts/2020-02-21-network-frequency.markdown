@@ -69,7 +69,7 @@ source: ["5G 서비스 지도 보니…단말기 교체할까 말까?"](https://
 아래 기사를 보면 이번 5G 상용화를 위해 이통3사가 경매한 결과를 볼 수 있다.
 <br><br>
 현재 2020년 2월 5G는 3.5GHz를 쓰고있다. 28GHz는 곧 RFP가 나온다고 한다.
-* RFP가 뭔지 궁금하면: ["이전 게시물"](포스팅URL)
+* RFP가 뭔지 궁금하면: ["이전 게시물"](https://dokylee54.github.io/network/2020/02/21/network-networkstatusinsouthkorea/)
 <br><br><br>
 ![coverage](https://dokylee54.github.io/assets/img/network/2020-02-21/spectrum_auction.png)
 >기사["5G 주파수 경매 '쩐의 전쟁' 없었다…SKT·KT 최대 대역폭 확보"](https://news.joins.com/article/22726257)
