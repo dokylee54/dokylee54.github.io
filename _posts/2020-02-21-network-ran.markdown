@@ -26,7 +26,7 @@ published: true
 여기서부터 `천천히` 읽으면서 따라오면 쉬움! (모르는 용어가 나오면 밑의 [용어](#용어-terminology) 탭 참고)
 
 아래 그림은 서울에서 부산으로 전화통화를 하는 과정을 도식화한 것이다.<br><br><br>
-![ran](https://dokylee54.github.io/assets/img/doubleqoute.png)
+![ran](https://dokylee54.github.io/assets/img/network/2020-02-21/ran.png)
 > 1. 서울 핸드폰(UE)에서 내가 전화한 곳과 가장 가까운 eNB(LTE 기지국)으로 wireless하게 신호 전달
 2. 서울에 있는 Core망으로 신호 전달
 3. 부산에 있는 Core망으로 신호 전달

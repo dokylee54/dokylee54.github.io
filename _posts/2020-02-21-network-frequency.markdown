@@ -53,7 +53,7 @@ published: true
 장애물에 막혀서 멀리 못가기 때문에, 기지국을 하나 세우면 LTE보다 훨씬 작은 지역에서 이용 가능하다 :(
 <br><br><br>
 아래 그림을 보면 커버리지(도달 가능한 지역)가 얼마나 차이나는지 알 수 있을 거다.
-![coverage](https://dokylee54.github.io/assets/img/doubleqoute.png)
+![coverage](https://dokylee54.github.io/assets/img/network/2020-02-21/coverage.jpg)
 source: ["5G 서비스 지도 보니…단말기 교체할까 말까?"](https://news.kbs.co.kr/news/view.do?ncd=4176392)
 
 
@@ -71,6 +71,7 @@ source: ["5G 서비스 지도 보니…단말기 교체할까 말까?"](https://
 현재 2020년 2월 5G는 3.5GHz를 쓰고있다. 28GHz는 곧 RFP가 나온다고 한다.
 * RFP가 뭔지 궁금하면: ["이전 게시물"](포스팅URL)
 <br><br><br>
+![coverage](https://dokylee54.github.io/assets/img/network/2020-02-21/spectrum_auction.png)
 >기사["5G 주파수 경매 '쩐의 전쟁' 없었다…SKT·KT 최대 대역폭 확보"](https://news.joins.com/article/22726257)
 
 
