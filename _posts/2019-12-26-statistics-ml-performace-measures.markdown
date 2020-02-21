@@ -3,7 +3,7 @@ layout: post
 title: "[Statistics] 머신러닝 분류기 성능 측정을 위한 지표 accuracy, precision, recall, f1-score 표로 쉽게 계산하기"  
 subtitle: "statistics"  
 categories: statistics  
-tags: statistics classifier model performance measure accuracy precision recall f1-score
+tags: false
 comments: true  
 header-img: img/statistics/2019-12-26/ml_main_img.jpg
 published: true
