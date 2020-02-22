@@ -53,7 +53,7 @@ LTE -> NR(New Radio)
 ## SA vs. NSA
 ---  
 먼저 좋은 레퍼런스 사진을 보자!
-![savsnsa](https://github.com/dokylee54/dokylee54.github.io/blob/master/assets/img/network/2020-02-21/ran.png?raw=true)
+![savsnsa](https://github.com/dokylee54/dokylee54.github.io/blob/master/assets/img/network/2020-02-22/savsnsa.gif?raw=true)
 여기서 주의해서 볼 부분은<br>
 > `NSA`는 4G 코어 EPC + LTE 기지국 eNB + NR 기지국 gNB<br>
 `SA`는 5G 코어 5GC + 5G 기지국 gNB
