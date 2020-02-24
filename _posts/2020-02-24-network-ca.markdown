@@ -26,7 +26,7 @@ published: true
 ---  
 CA는 서로 다른 주파수 대역을 동시에 이용하여 광대역을 만들어 통신하는 것<br>
 레퍼런스 사진을 보자!
-![ca]()
+![ca](https://github.com/dokylee54/dokylee54.github.io/blob/master/assets/img/network/2020-02-24/ca.gif?raw=true)
 >두 주파수 대역 (e.g. 850MHz, 1.8GHz)을 사용하는 CA 기지국에서 LTE 단말 (CA 지원 안함)과 LTE-A 단말 (CA 지원함)이 통신하는 경우를 나타냅니다.<br><br>
 LTE 단말기는 850MHz 또는 1.8GHz 중 `하나의 대역`으로 최대 75Mbps까지 통신할 수 있고, LTE-A 단말기는 `CA`를 이용해 850MHz와 1.8GHz로 `동시에` 통신하여 최대 150Mbps까지 통신할 수 있습니다.<br><br>
 그러나, `대역별 커버리지가 다르므로` LTE-A 단말은 위치나 전파 수신 상태에 따라 LTE 단말기처럼 하나의 주파수로만 통신할 수도 있습니다.<br>
@@ -67,7 +67,7 @@ CA도 종류를 나눌 수 있는데, 어떤 주파수 대역을 사용할 거�
 <br><br>
 그림 한 장으로 정리해보면
 
-![ca_category]()
+![ca_category](https://github.com/dokylee54/dokylee54.github.io/blob/master/assets/img/network/2020-02-24/ca_category.png?raw=true)
 
 > 같은 주파수 대역(이하 밴드라고 칭하겠음)안에서 하는 건 intra-band, 다른 밴드면 inter-band<br>
 둘이 연속적으로 이어져 있으면 contiguous, 떨어져 있으면 non-contiguous<br>
